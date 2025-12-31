@@ -1,73 +1,136 @@
-# Welcome to your Lovable project
+🏥 Care-Connect Pro
+AI-Assisted Hospital Information System
+🚀 Overview
 
-## Project info
+Care-Connect Pro is a smart, AI-assisted Hospital Information System (HIS) designed to digitize and streamline hospital operations while improving doctor–patient interaction.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Built as a national-level hackathon prototype, the platform demonstrates how modern web technologies and AI can be combined to create an efficient, scalable, and user-friendly healthcare management system.
 
-## How can I edit this code?
+❗ Problem Statement
 
-There are several ways of editing your application.
+Many hospitals still rely on fragmented or outdated systems that lead to:
 
-**Use Lovable**
+Inefficient appointment management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Poor accessibility of patient medical records
 
-Changes made via Lovable will be committed automatically to this repo.
+Lack of intelligent decision support
 
-**Use your preferred IDE**
+Manual and error-prone workflows
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+💡 Our Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Care-Connect Pro provides a centralized, role-based digital platform where:
 
-Follow these steps:
+Admins manage hospital operations
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Doctors access patient records and manage appointments
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Patients interact digitally with the hospital
 
-# Step 3: Install the necessary dependencies.
-npm i
+AI assists healthcare workflows (prototype, non-diagnostic)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+✨ Key Features
+
+🔐 Role-based authentication (Admin / Doctor / Patient)
+
+📅 Smart appointment scheduling system
+
+📂 Electronic Health Records (EHR)
+
+👨‍⚕️ Doctor dashboard with patient history & prescriptions
+
+🧑 Patient dashboard for appointments & reports
+
+🤖 AI-assisted medical support (prototype)
+
+📊 Admin analytics & hospital overview
+
+🎨 Clean, modern, responsive UI
+
+🛠 Tech Stack
+
+Frontend
+
+React (Vite)
+
+Tailwind CSS
+
+React Router
+
+Backend
+
+Node.js
+
+Express.js
+
+REST APIs
+
+JWT Authentication
+
+Database
+
+MongoDB (or mock database for demo)
+
+AI
+
+LLM-based mock AI service (prototype)
+
+🧪 Demo Mode
+
+This project runs in demo/prototype mode:
+
+Pre-seeded sample users (Admin, Doctors, Patients)
+
+Sample appointments & medical records
+
+Mock AI responses
+
+No paid or external APIs required
+
+▶️ Running the Project Locally
+# Clone the repository
+[git clone https://github.com/Black-Cat-23/care-connect-pro.git
+
+# Frontend
+cd frontend
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+# Backend
+cd backend
+npm install
+npm start
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🏆 Hackathon Relevance
 
-**Use GitHub Codespaces**
+Real-world healthcare problem
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Full-stack system design
 
-## What technologies are used for this project?
+AI integration with responsible usage
 
-This project is built with:
+Scalable and modular architecture
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Strong demo and presentation potential
 
-## How can I deploy this project?
+🔮 Future Scope
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Video consultations
 
-## Can I connect a custom domain to my Lovable project?
+Emergency triage system
 
-Yes, you can!
+Wearable & IoT health data integration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Multilingual support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Blockchain-based medical records
+
+⚠️ Disclaimer
+
+This project is a hackathon prototype created for educational and innovation purposes only.
+AI suggestions are not a medical diagnosis and should not be used for real-world treatment.
+
+⭐ Support
+
+If you find this project useful or interesting, please consider giving it a ⭐ on GitHub!
